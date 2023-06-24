@@ -1,0 +1,246 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.hidden--slaider{
+    display: none;
+}
+/* sec--heading */
+.headre--input{
+    padding-bottom: 6px;
+    border-bottom: 1px solid #080808;
+    width: 200px;
+    /* \ */
+}
+.header{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    column-gap: 75px;
+    align-items: center;
+}
+.hidden{
+    display: none; 
+}
+.header--media{
+    display: none;
+}
+.header--title--media{
+    display: none;
+}
+.header--title{
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    padding-top: 283px;
+    padding-left: 703px;
+}
+.header--title--p{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.header--title--h2{
+    padding: 25px 0px;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    font-size: 63px;
+    line-height: 113.9%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.header--title--button{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+    /* form */
+    padding: 19px 68px;
+    background-color: #ffffff;
+}
+.nav--list{
+    display: flex;
+    column-gap: 44px;
+}
+.nav--list li{
+    cursor: pointer;
+}
+.header--icons{
+    display: flex;
+    column-gap: 22px;
+    align-items: center;
+}
+.nav--list--text{
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 20px; */
+    color: #2D2D2D;
+}
+/* SLAIDER */
+.slaider--line--case{
+    margin: 0 auto;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    width: 1423px;
+    overflow: hidden;
+}
+.slaider--line{
+    margin: 0 auto;
+    width: 5692px;
+    height: 820px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 0%;
+    transition: all ease 1.3s;
+}
+.button--block{
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    margin: 0 auto;
+    column-gap: 1250px;
+    top: 50vh;
+}
+.button--block button{
+    width: 9.17px;
+    height: 17.78px;
+}
+/* END SLAIDER */
+/* sec--new--collection */
+.sec--new--collection{
+    padding: 120px 0px;
+}
+.collection--top{
+    display: flex;
+    /* justify-content: space-between; */
+    column-gap: 40px;
+    padding: 30px 0px 60px;
+}
+.collection--case--text{
+    padding-top: 20px;
+}
+.collection--case{
+    cursor: pointer;
+}
+.glav--text{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 113.9%; 
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+}
+.class--pad{
+    padding-top: 8px;
+}
+/* sec--by--spring */
+.by--spring--header{
+    display: flex;
+    column-gap: 124px;
+    padding-bottom: 80px;
+}
+.by--spring--img{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+/* sec--footer */
+.sec--footer{
+    border-top:1px solid #C4C4C4;
+    padding: 70px 0px 40px;
+}
+.glav--text--list{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer--list{
+    display: flex;
+    column-gap: 130px;
+}
+.footer--bottom--text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 105%;
+    text-align: center;
+    color: #CECECE;
+}
+.footer--bottom{
+    padding-top: 80px;
+    text-align: center;
+}
+.footer--list--text{
+    display: grid;
+    gap: 10px;
+}
+.hidden--collection--media{
+    display: none;
+}
+.hidden--collection{
+    display: flex;
+}
+.help--button--list{
+    display: none;
+}
+/* sec--footer--media */
+.help{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.help--button{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.btn--tran{
+    transform: rotate(180deg);
+}
+.sec--footer--media{
+    border-top: 1px solid #C4C4C4;
+    text-align: center;
+    padding: 40px 0px;
+    margin-top: 60px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    padding-bottom: 35px;
+}
+.fot--media--text{
+    padding-top: 10px;
+}
+.berger--btn--menu{
+    background-color: #FBFBFA;
+    width: 425px;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    z-index: 3;
+    padding: 30px 25px;
+}
+.text--list--gurger{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 113.9%; 
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+}

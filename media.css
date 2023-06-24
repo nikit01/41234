@@ -1,0 +1,110 @@
+@media (max-width: 425px){
+    .container{
+        max-width: 465px;
+        padding: 0px 20px;
+        margin: 0px auto;
+    }
+    .slaider--line--case{
+        display: none;
+    }
+    .slaider--line--case--media{
+        display: block;
+    }
+    .header{
+        display: none;
+    }
+    .header--media{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header--title--media--1{
+        position: absolute;
+        z-index: 2;
+        left:0;
+        right:0;
+        padding-top: 240px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .header--media--icons{
+        display: flex;
+        column-gap: 20px;
+    }
+    .header--title{
+        display: none;
+    }
+    .header--title--media{
+        display: block;
+        text-align: center;
+        
+    }
+    .header--title--p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 113.9%;
+        letter-spacing: 0.03em;
+        color: #2d2d2d;
+    }
+    .header--title--h2{
+        padding: 25px 0px;
+        font-family: 'Playfair Display';
+        font-weight: 500;
+        font-size: 43px;
+        line-height: 113.9%;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2d2d2d;
+    }
+    .hidden--slaider{
+        display: block;
+    }
+    .collection--margin--media{
+        margin-left: 20px;
+    }
+    .hidden--media{
+        display: none;
+    }
+    .slick-dots{
+        display: none;
+    }
+    /* vs e,hfkb r */
+    .slick-prev{
+        display: none;
+    }
+    .hidden--collection--media{
+        display: block;
+    }
+    .hidden--collection{
+        display: none;
+    }
+    .by--spring--img{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .by--spring--header {
+        padding-bottom: 15px;
+    }
+    .by--spring--img img{
+        padding-bottom: 20px;
+    }
+    .nav--list--text {
+        /* padding-top: 20px; */
+        margin: 0 auto;
+        font-size: 11px;
+    }
+    .footer--list--text{
+        gap: 6px;
+    }
+    .sec--footer{
+        display: none;
+    }
+    .footer--bottom--text, .glav--text--list{
+        font-size: 11px;
+    }
+    .burger--list{
+        display: grid;
+        gap: 20px;
+    }
+}

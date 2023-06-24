@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="sec--header--media">
+        <div class="container">
+            <div class="header--media">
+                <button id="list" class="list--close hidden"><img src="img/img--header--icons--close--media.svg" alt=""></button>
+                <button class="burger--btn"><img src="img/img--header--icons--berger.svg" alt="" ></button>
+                <img src="img/img--header--logo--media.svg" alt="">
+                <div class="header--media--icons">
+                    <img src="img/img--header--icons--user--media.svg" alt="">
+                    <img src="img/img--header--icons--bag--media.svg" alt="">
+                </div>
+            </div>
+            <div class="berger--btn--menu hidden">
+                <nav>
+                    <ul class="burger--list">
+                        <a href="#" class="burger--list--text text--list--gurger">Все</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Платья</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Пальто и тренчи</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Пуховики</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Куртки и жилеты</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Деним</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Блузы и топы</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Брюки</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Юбки</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Рубашки</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Футболки</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Свитеры</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Толстовки</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Комплекты</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Комбинезоны</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Шорты</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Купальники</a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <section class="sec--heading">
+        <div class="container">
+            <!-- <div class="header--media">
+                <button class="burger--btn"><img src="img/img--header--icons--berger.svg" alt="" ></button>
+                <img src="img/img--header--logo--media.svg" alt="">
+                <div class="header--media--icons">
+                    <img src="img/img--header--icons--user--media.svg" alt="">
+                    <img src="img/img--header--icons--bag--media.svg" alt="">
+                </div>
+            </div>
+            <div class="berger--btn--menu help--button--list.">
+                <nav>
+                    <ul class="burger--list">
+                        <a href="#" class="burger--list--text text--list--gurger">Все</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Платья</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Пальто и тренчи</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Пуховики</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Куртки и жилеты</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Деним</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Блузы и топы</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Брюки</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Юбки</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Рубашки</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Футболки</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Свитеры</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Толстовки</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Комплекты</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Комбинезоны</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Шорты</a>
+                        <a href="#" class="burger--list--text text--list--gurger">Купальники</a>
+                    </ul>
+                </nav>
+            </div> -->
+            <div class="header">
+                <nav>
+                    <ul class="nav--list">
+                        <li><a href="#" class="nav--list--text">Новинки</a></li>
+                        <li><a href="#"class="nav--list--text">Одежда</a></li>
+                        <li><a href="#" class="nav--list--text">Аксессуары</a></li>
+                        <li><a href="#" class="nav--list--text">SALE</a></li>
+                    </ul>
+                </nav>
+                <img src="img/img--header--logo.svg" alt="">
+                <input type="search" class="headre--input">
+                <div class="header--icons">
+                    <a href="#"><img src="img/img--header--icons--love.svg" alt=""></a>
+                    <a href="#"><img src="img/img--header--icons--bag.svg" alt=""></a>
+                    <a href="#"><img src="img/img--header--icons--user.svg" alt=""></a>
+                </div>
+            </div>
+
+            
+            <div class="header--title--media--1">
+                <div class="header--title--media">
+                    <p class="header--title--p">Весна — лето 2022</p>
+                    <h2 class="header--title--h2">with love, <br> to you</h2>
+                    <button class="header--title--button"><span>Перейти в каталог</span></button>
+                </div>
+            </div>
+            
+            <div class="header--title">
+                <p class="header--title--p">Весна — лето 2022</p>
+                <h2 class="header--title--h2">with love, <br> to you</h2>
+                <button class="header--title--button"><span>Перейти в каталог</span></button>
+            </div>
+        </div>
+        <div class="slaider--line--media hidden--slaider">
+            <img src="img/sec--heading--img--1--media.svg" alt="">
+            <img src="img/sec--heading--img--2--media.svg" alt="">
+            <img src="img/sec--heading--img--3--media.svg" alt="">
+            <img src="img/sec--heading--img--4--media.svg" alt="">
+            <img src="img/sec--heading--img--5--media.svg" alt="">
+        </div>
+        <div class="slaider--line--case">
+            <div class="button--block">
+                <button class="btn--prev"><img src="img/img--btn--prev.svg" alt=""></button>
+                <button class="btn--next"><img src="img/img--btn--next.svg" alt=""></button>
+            </div>
+            <div class="slaider--line">
+                <img src="img/sec--heading--img-1.svg" alt="">
+                <img src="img/sec--heading--img--2.svg" alt="">
+                <img src="img/sec--heading--img--3.svg" alt="">
+                <img src="img/sec--heading--img--4.svg" alt="">
+                <img src="img/sec--heading--img--5.svg" alt="">
+            </div>
+        </div>
+    </section>
+     <main>
+        <section class="sec--new--collection">
+            <div class="container">
+                <p class="glav--text">New collection</p>
+                <!-- слайдер мобилка -->
+                <div class="collection--top hidden--collection">
+                    <div class="collection--case collection--margin--media ">
+                        <img src="img/sec--collection--case--black.svg" alt="">
+                        <div class="collection--case--text">
+                            <span class="nav--list--text class--pad">Платье в полоску с запахом</span><br> 
+                            <p class="nav--list--text class--pad">6 999 руб.</p>
+                        </div>
+                    </div>
+                    <div class="collection--case collection--margin--media">
+                        <img src="img/sec--collection--case--withe.svg" alt="">
+                        <div class="collection--case--text">
+                            <span class="nav--list--text">Объемный пиджак</span><br> 
+                            <p class="nav--list--text class--pad">12 499 руб.</p>
+                        </div>
+                    </div>
+                    <div class="collection--case collection--margin--media">
+                        <img src="img/sec--collection--case--green.svg" alt="">
+                        <div class="collection--case--text">
+                            <span class="nav--list--text">Комбинезон с принтом</span><br> 
+                            <p class="nav--list--text class--pad">7 399 руб.</p>
+                        </div>
+                    </div>
+                    <div class="collection--case collection--margin--media">
+                        <img src="img/sec--collection--case--хзчтозацвет.svg" alt="">
+                        <div class="collection--case--text">
+                            <span class="nav--list--text">Атласный топ-комбинация</span><br> 
+                            <p class="nav--list--text class--pad">2 799 руб.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="collection--top collection--case--media hidden--collection--media">
+                    <div class="collection--case collection--margin--media ">
+                        <img src="img/sec--collection--case--black.svg" alt="">
+                        <div class="collection--case--text">
+                            <span class="nav--list--text class--pad">Платье в полоску с запахом</span><br> 
+                            <p class="nav--list--text class--pad">6 999 руб.</p>
+                        </div>
+                    </div>
+                    <div class="collection--case collection--margin--media">
+                        <img src="img/sec--collection--case--withe.svg" alt="">
+                        <div class="collection--case--text">
+                            <span class="nav--list--text">Объемный пиджак</span><br> 
+                            <p class="nav--list--text class--pad">12 499 руб.</p>
+                        </div>
+                    </div>
+                    <div class="collection--case collection--margin--media">
+                        <img src="img/sec--collection--case--green.svg" alt="">
+                        <div class="collection--case--text">
+                            <span class="nav--list--text">Комбинезон с принтом</span><br> 
+                            <p class="nav--list--text class--pad">7 399 руб.</p>
+                        </div>
+                    </div>
+                    <div class="collection--case collection--margin--media">
+                        <img src="img/sec--collection--case--хзчтозацвет.svg" alt="">
+                        <div class="collection--case--text">
+                            <span class="nav--list--text">Атласный топ-комбинация</span><br> 
+                            <p class="nav--list--text class--pad">2 799 руб.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection--top hidden--media">
+                    <div class="collection--case">
+                        <img src="img/sec--collection--case--blu.svg" alt="">
+                        <div class="collection--case--text">
+                            <span class="nav--list--text">Блейзер с декоративными пуговицами</span><br> 
+                            <p class="nav--list--text class--pad">9 999 руб.</p>
+                        </div>
+                    </div>
+                    <div class="collection--case">
+                        <img src="img/sec--collection--case--red.svg" alt="">
+                        <div class="collection--case--text">
+                            <span class="nav--list--text">Блейзер с декоративными пуговицами</span><br> 
+                            <p class="nav--list--text class--pad">8 799 руб.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec--by--spring">
+            <div class="container">
+                <div class="by--spring">
+                    <div class="by--spring--header">
+                        <p class="glav--text">Вдохновленные весной</p>
+                        <span class="nav--list--text hidden--collection">Разнообразный и богатый опыт рамки и <br> место обучения кадров способствует <br> подготовки и реализации форм развития. <br> С другой стороны реализация намеченных плановых </span>
+                    </div>
+                    <div class="by--spring--img">
+                        <img src="img/sec--by--spring--img--hand.svg" alt="">
+                        <img src="img/sec--by--spring--img--nohand.svg" alt="" class="hidden--collection">
+                        <span class="nav--list--text hidden--collection--media">Разнообразный и богатый опыт рамки и <br> место обучения кадров способствует <br> подготовки и реализации форм развития. <br> С другой стороны реализация намеченных плановых </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec--to--bue">
+            <div class="container">
+                <p class="glav--text">Успей купить</p>
+                <!-- слайдер мобилка -->
+                <div class="collection--top collection--case--media hidden--collection--media">
+                    <div class="collection--case collection--margin--media ">
+                        <img src="img/sec--collection--case--black.svg" alt="">
+                        <div class="collection--case--text">
+                            <span class="nav--list--text class--pad">Платье в полоску с запахом</span><br> 
+                            <p class="nav--list--text class--pad">6 999 руб.</p>
+                        </div>
+                    </div>
+                    <div class="collection--case collection--margin--media">
+                        <img src="img/sec--collection--case--withe.svg" alt="">
+                        <div class="collection--case--text">
+                            <span class="nav--list--text">Объемный пиджак</span><br> 
+                            <p class="nav--list--text class--pad">12 499 руб.</p>
+                        </div>
+                    </div>
+                    <div class="collection--case collection--margin--media">
+                        <img src="img/sec--collection--case--green.svg" alt="">
+                        <div class="collection--case--text">
+                            <span class="nav--list--text">Комбинезон с принтом</span><br> 
+                            <p class="nav--list--text class--pad">7 399 руб.</p>
+                        </div>
+                    </div>
+                    <div class="collection--case collection--margin--media">
+                        <img src="img/sec--collection--case--хзчтозацвет.svg" alt="">
+                        <div class="collection--case--text">
+                            <span class="nav--list--text">Атласный топ-комбинация</span><br> 
+                            <p class="nav--list--text class--pad">2 799 руб.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="collection--top hidden--collection">
+                    <div class="collection--case">
+                        <img src="img/sec--collection--case--black.svg" alt="">
+                        <div class="collection--case--text">
+                            <span class="nav--list--text class--pad">Платье в полоску с запахом</span><br> 
+                            <p class="nav--list--text class--pad">6 999 руб.</p>
+                        </div>
+                    </div>
+                    <div class="collection--case">
+                        <img src="img/sec--collection--case--withe.svg" alt="">
+                        <div class="collection--case--text">
+                            <span class="nav--list--text">Объемный пиджак</span><br> 
+                            <p class="nav--list--text class--pad">12 499 руб.</p>
+                        </div>
+                    </div>
+                    <div class="collection--case">
+                        <img src="img/sec--collection--case--green.svg" alt="">
+                        <div class="collection--case--text">
+                            <span class="nav--list--text">Комбинезон с принтом</span><br> 
+                            <p class="nav--list--text class--pad">7 399 руб.</p>
+                        </div>
+                    </div>
+                    <div class="collection--case">
+                        <img src="img/sec--collection--case--хзчтозацвет.svg" alt="">
+                        <div class="collection--case--text">
+                            <span class="nav--list--text">Атласный топ-комбинация</span><br> 
+                            <p class="nav--list--text class--pad">2 799 руб.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main> 
+    <section class="sec--footer--media hidden--collection--media">
+        <div class="container">
+            <div class="down--list">
+                <div class="help">
+                    <div class="help--button">
+                        <p class="glav--text--list">Помощь</p>
+                        <img src="img/img--btn--help--arow.svg" alt="" class="help--btn--arow">
+                    </div>
+                    <ul  class="footer--list--text help--button--list">
+                        <li><a href="#" class ="nav--list--text" >Оплата</a></li>
+                        <li><a href="#" class ="nav--list--text" >Доставка</a></li>
+                        <li><a href="#" class ="nav--list--text" >Возврат и обмен</a></li>
+                    </ul>
+                </div>
+                <div class="help">
+                    <div class="company--button help--button">
+                        <p class="glav--text--list">Компания</p>
+                        <img src="img/img--btn--help--arow.svg" alt="" class="comp--btn--arow">
+                    </div>
+                    <ul  class="footer--list--text list--text--comp help--button--list">
+                        <li><a href="#" class ="nav--list--text" >О нас</a></li>
+                        <li><a href="#" class ="nav--list--text" >Наши магазины</a></li>
+                        <li><a href="#" class ="nav--list--text" >Контакты</a></li>
+                    </ul>
+                </div>   
+            </div>
+            <div class="footer--media--bottom">
+                <div class="social">
+                    <a href="#" class="glav--text--list">TikTok</a>
+                    <a href="#" class="glav--text--list">VK</a>
+                    <a href="#" class="glav--text--list">Telegram</a>
+                </div>
+                <img src="img/img--footer--logo--media.svg" alt="">
+                <div class="fot--media--text">
+                    <span class="footer--bottom--text">Все права защищены.Пользовательское соглашение. Политика конфиденциальности © 2022 sarafancollection.ru</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec--footer">
+        <div class="container">
+            <div class="footer">
+                <img src="img/img--header--logo.svg" alt="">
+                <div class="footer--list">
+                    <nav>
+                        <ul  class="footer--list--text">
+                            <li><a href="#" class="glav--text--list">Помощь</a></li>
+                            <li><a href="#" class ="nav--list--text" >Оплата</a></li>
+                            <li><a href="#" class ="nav--list--text" >Доставка</a></li>
+                            <li><a href="#" class ="nav--list--text" >Возврат и обмен</a></li>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul class="footer--list--text">
+                            <li><a href="#" class="glav--text--list">Компания</a></li>
+                            <li><a href="#" class ="nav--list--text" >О нас</a></li>
+                            <li><a href="#" class ="nav--list--text" >Наши магазины</a></li>
+                            <li><a href="#" class ="nav--list--text" >Контакты</a></li>
+                        </ul>  
+                    </nav>
+                    <nav>
+                        <ul class="footer--list--text">
+                            <li><a href="#" class="glav--text--list">Следите за нами</a></li>
+                            <li><a href="#" class ="nav--list--text" >TikTok</a></li>
+                            <li><a href="#" class ="nav--list--text" >Vk</a></li>
+                            <li><a href="#" class ="nav--list--text" >Telegram</a></li>
+                            <li><a href="#" class ="nav--list--text" >Pinterest</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer--bottom">
+                <span class="footer--bottom--text">Все права защищены.Пользовательское соглашение.Политика конфиденциальности <br> © 2022 sarafancollection.ru</span>
+            </div>
+        </div>
+    </section>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
